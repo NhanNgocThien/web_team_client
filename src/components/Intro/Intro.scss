@@ -1,0 +1,39 @@
+.intro {
+    background: #353353;
+    padding: 0;
+    height: 100vh;
+    min-height: 100vh;
+
+    .intro-wrapper {
+        margin: auto;
+        max-width: 540px;
+        text-align: center;
+        position: relative;
+        z-index: 1;
+
+        h1 {
+            color: #fff;
+            font-size: 36px;
+        }
+
+        p {
+            color: #fff;
+            font-size: 18px;
+            margin-bottom: 0;
+        }
+
+        .social-icons {
+
+            li:not(:last-child) {
+                margin-right: 1.5rem;
+            }
+
+            li {
+                a {
+                    color: #fff;
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+}
